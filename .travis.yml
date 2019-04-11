@@ -1,1 +1,5 @@
-language: node.js
+language: node_js
+node_js:
+    - "stable"
+script:
+    - yarn start
