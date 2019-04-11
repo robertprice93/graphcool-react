@@ -4,6 +4,10 @@ import Post from '../components/Post'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
 
+export function sumNumbers(x, y) {
+    return x + y
+}
+
 class ListPage extends React.Component {
 
   componentWillReceiveProps(nextProps) {
