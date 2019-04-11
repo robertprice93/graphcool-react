@@ -17,7 +17,7 @@
     "apollo-link-http": "^1.5.14",
     "graphql": "^14.2.1",
     "graphql-tag": "^2.10.1",
-    "jest": "^24.7.1",
+    "jest": "^23.6.0",
     "jest-environment-jsdom": "^24.7.1",
     "react": "^16.8.6",
     "react-apollo": "^2.5.4",
@@ -33,5 +33,11 @@
     "eject": "react-scripts eject",
     "prettier": "prettier-eslint --write \"src/**/*.+(js|jsx)\"",
     "prettier-dry-run": "prettier-eslint \"src/**/*.+(js|jsx)\" -l debug"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
