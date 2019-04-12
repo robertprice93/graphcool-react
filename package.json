@@ -26,7 +26,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter test -- -R spec && codecov",
+        "test": "cd ./test && istanbul cover ../node_modules/mocha/bin/_mocha --reporter test -- -R spec && codecov --disable=gcov -t 57ffd2cf-5322-4d2c-b063-d480aee0a160",
         "eject": "react-scripts eject",
         "prettier": "prettier-eslint --write \"src/**/*.+(js|jsx)\"",
         "prettier-dry-run": "prettier-eslint \"src/**/*.+(js|jsx)\" -l debug"
