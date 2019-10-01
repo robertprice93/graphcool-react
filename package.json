@@ -20,7 +20,7 @@
         "react-apollo": "^2.5.4",
         "react-dom": "^16.8.6",
         "react-modal": "^3.8.1",
-        "react-router-dom": "^5.0.0",
+        "react-router-dom": "^5.1.2",
         "tachyons": "^4.11.1"
     },
     "scripts": {
